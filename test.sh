@@ -1,3 +1,4 @@
 #!/bin/bash
 echo "test-training"
-echo "hostname"
+echo $(hostname)
+echo $(whoami)
